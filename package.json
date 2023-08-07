@@ -1,0 +1,26 @@
+{
+  "name": "westtallybjj",
+  "version": "1.0.0",
+  "description": "Website for West Tally BJJ Club",
+  "main": "main.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/f2hodge/westTallyBjj.git"
+  },
+  "keywords": [
+    "BJJ"
+  ],
+  "author": "SiteHound",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/f2hodge/westTallyBjj/issues"
+  },
+  "homepage": "https://github.com/f2hodge/westTallyBjj#readme",
+  "dependencies": {
+    "node-sass": "^9.0.0",
+    "sass": "^1.64.2"
+  }
+}
