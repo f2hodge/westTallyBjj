@@ -10,6 +10,17 @@ body::before {
 
 #showcase {
     @include background($martial-artists, $primary-color);
+    height: 63vh;
+
+    .contentDisplay {
+        background-color: rgba(lighten($primary-color, 2), $background-opacity);
+        border-radius: 7%;
+    }
+}
+
+#boxesSection {
+    z-index: 2;
+    background-color: lighten($primary-color, 56);
 }
 
 /* Mapbox CSS to make it display */
